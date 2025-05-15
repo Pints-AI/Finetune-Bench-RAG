@@ -1,0 +1,9 @@
+__pycache__
+
+dataset/
+logs/
+ragbench/inferences
+ragbench/judge_results
+wandb/
+
+.env
