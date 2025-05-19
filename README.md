@@ -1,6 +1,24 @@
+<p align="center">
+  <img src="media/pints_ai-banner.png" alt="Pints.ai" width="300">
+</p>
+
 # Finetune-RAG: Fine-tuning Models to Tackle Retrieval-Augmented Generation (RAG) Hallucination
 
 This repository provides an open-source framework to fine-tune large language models (LLMs) for improving their ability to discern correct information from irrelevant or fictitious data when using Retrieval-Augmented Generation (RAG) systems. By training models to distinguish between relevant and misleading contexts, we aim to reduce the hallucination problem in LLM-generated responses, enhancing the reliability of models in real-world use cases.
+
+## Paper & Citation
+
+```latex
+@misc{lee2025finetuneragfinetuninglanguagemodels,
+      title={Finetune-RAG: Fine-Tuning Language Models to Resist Hallucination in Retrieval-Augmented Generation}, 
+      author={Zhan Peng Lee and Andre Lin and Calvin Tan},
+      year={2025},
+      eprint={2505.10792},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.10792}, 
+}
+```
 
 ## Problem Overview
 
