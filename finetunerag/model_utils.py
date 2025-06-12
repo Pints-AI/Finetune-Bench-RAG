@@ -19,7 +19,7 @@ from contextlib import contextmanager
 from dataclasses import dataclass
 from typing import List, Literal, Optional, Tuple, Union
 
-from guardrag.utils import retry_on_exception
+from finetunerag.utils import retry_on_exception
 
 try:
     import deepspeed
