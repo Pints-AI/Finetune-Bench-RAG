@@ -27,9 +27,9 @@ from transformers import (
 print("Current Working Directory:", os.getcwd())
 
 from prompts.prompt_styles import PromptStyle
-from guardrag.arguments import FinetuneArguments
-from guardrag.model_utils import save_with_accelerate
-from guardrag.utils import (
+from finetunerag.arguments import FinetuneArguments
+from finetunerag.model_utils import save_with_accelerate
+from finetunerag.utils import (
     ArgumentParserPlus,
     clean_last_n_checkpoints,
     get_last_checkpoint_path,
